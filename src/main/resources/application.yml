@@ -1,0 +1,9 @@
+server:
+  port: 9080
+  servlet:
+    context-path: /demo
+  ssl:
+    key-store: classpath:keystore.p12
+    keyStoreType: PKCS12
+    key-store-password: 123456
+

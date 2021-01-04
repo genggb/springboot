@@ -1,0 +1,37 @@
+2020-06-08 20:07:45.740 [main] INFO  com.ggb.SpringbootApplication - Starting SpringbootApplication on DESKTOP-DEDBGLV with PID 247964 (D:\workspace_idea\springboot\target\classes started by aa in D:\workspace_idea\springboot)
+2020-06-08 20:07:45.743 [main] INFO  com.ggb.SpringbootApplication - No active profile set, falling back to default profiles: default
+2020-06-08 20:07:46.683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9080 (https)
+2020-06-08 20:07:46.692 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-9080"]
+2020-06-08 20:07:46.696 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-08 20:07:46.697 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-06-08 20:07:46.702 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Sybase\RPL-12_5\bin;C:\Sybase\Shared\Sybase Central 4.3;C:\Sybase\OCS-12_5\lib3p;C:\Sybase\OCS-12_5\dll;C:\Sybase\OCS-12_5\bin;C:\Sybase\ASE-12_5\dll;C:\Sybase\ASE-12_5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Sybase\Shared\Web Targets;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Sybase\RPL-12_5\bin;C:\Sybase\Shared\Sybase Central 4.3;C:\Sybase\OCS-12_5\lib3p;C:\Sybase\OCS-12_5\dll;C:\Sybase\OCS-12_5\bin;C:\Sybase\ASE-12_5\dll;C:\Sybase\ASE-12_5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Sybase\Shared\Web Targets;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2020-06-08 20:07:46.882 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-06-08 20:07:46.886 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2020-06-08 20:07:46.886 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1115 ms
+2020-06-08 20:07:46.919 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-06-08 20:07:46.923 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-08 20:07:46.924 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-08 20:07:46.924 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-06-08 20:07:46.924 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-08 20:07:47.166 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-08 20:07:47.291 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-08 20:07:47.387 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-08 20:07:47.401 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-08 20:07:47.437 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-08 20:07:47.498 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+2020-06-08 20:07:47.499 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingHEAD_1
+2020-06-08 20:07:47.499 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPOST_1
+2020-06-08 20:07:47.500 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPUT_1
+2020-06-08 20:07:47.501 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPATCH_1
+2020-06-08 20:07:47.502 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingDELETE_1
+2020-06-08 20:07:47.503 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingOPTIONS_1
+2020-06-08 20:07:47.503 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingTRACE_1
+2020-06-08 20:07:47.572 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-9080"]
+2020-06-08 20:07:48.171 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-06-08 20:07:48.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9080 (https) with context path '/demo'
+2020-06-08 20:07:48.189 [main] INFO  com.ggb.SpringbootApplication - Started SpringbootApplication in 2.932 seconds (JVM running for 3.646)
+2020-06-08 20:14:52.679 [https-jsse-nio-9080-exec-6] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-08 20:14:52.680 [https-jsse-nio-9080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-08 20:14:52.684 [https-jsse-nio-9080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-08 20:14:53.978 [https-jsse-nio-9080-exec-2] INFO  com.ggb.controller.JspController - info+index
+2020-06-08 20:14:53.986 [https-jsse-nio-9080-exec-2] INFO  com.ggb.controller.JspController - info+index
